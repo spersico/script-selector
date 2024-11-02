@@ -1,0 +1,43 @@
+{
+  "name": "script-selector",
+  "private": false,
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Basic Dev-util that lets you visualize and select a script from your package.json. Compatible with most Package Managers/engines.",
+  "author": "Santiago Persico",
+  "license": "MIT",
+  "main": "index.js",
+  "bin": {
+    "script-selector": "./index.js",
+    "scripts": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "dummyScriptForTests": "echo 'dummy'"
+  },
+  "dependencies": {
+    "inquirer": "^12.0.1",
+    "chalk": "^5.3.0",
+    "clipboardy": "^4.0.0"
+  },
+  "devDependencies": {
+    "vitest": "^2.1.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spersico/script-selector.git"
+  },
+  "bugs": {
+    "url": "https://github.com/spersico/script-selector/issues"
+  },
+  "homepage": "https://github.com/spersico/script-selector",
+  "keywords": [
+    "cli",
+    "devTool",
+    "npm",
+    "yarn",
+    "scripts"
+  ]
+}
