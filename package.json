@@ -2,7 +2,7 @@
   "name": "script-selector",
   "private": false,
   "type": "module",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Basic Dev-util that lets you visualize and select a script from your package.json. Compatible with most Package Managers/engines.",
   "author": "Santiago Persico",
   "license": "MIT",
