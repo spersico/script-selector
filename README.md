@@ -8,7 +8,9 @@ This doesn't run the script, it just copies it to the clipboard, allowing you to
 
 Inference works by just checking if there's a lock file of some type in the current folder, and defaults to `npm` if none is found.
 
-![Example of the app running in a terminal](<README.screenshot.png>)
+
+[![Example of the app running in a terminal](<README.screenshot.png>)](https://www.youtube.com/embed/C-HNP0JqEGA)
+
 ### Instalation and Usage
 You can use npx to run it without installing it (though it will be slower each time it needs to be downloaded).:
 ```bash
