@@ -30,7 +30,7 @@ export function searchChoices(choices) {
     if (lowerCasedInput === 'q') { return [optionQuit]; }
     if (Number.isInteger(parseInt(lowerCasedInput))) {
       return choices.filter(
-        (_, index) => index - 1 === parseInt(lowerCasedInput)
+        (_, index) => index === parseInt(lowerCasedInput)
       );
     }
 
